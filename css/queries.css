@@ -222,6 +222,7 @@
       grid-column: span 2;
       margin-bottom: 3.2rem;
     }
+    
   }
   
   /**************************/
@@ -299,6 +300,11 @@
       height: 50%;
       
       
+    }
+
+    .harta{
+      height: 50em;
+      width: 34em;
     }
   }
   
