@@ -68,6 +68,7 @@
       /* 8px / 16px = 0.5 = 50% */
       font-size: 50%;
     }
+    
   
     .hero {
       grid-template-columns: 1fr;
@@ -183,6 +184,9 @@
     .main-nav-link:visited {
       font-size: 3rem;
     }
+    .harta{
+      width: auto;
+    }
   }
   
   /**************************/
@@ -222,6 +226,8 @@
       grid-column: span 2;
       margin-bottom: 3.2rem;
     }
+
+  
     
   }
   
@@ -303,9 +309,23 @@
     }
 
     .harta{
-      height: 45em;
-      width: 32em;
+      height: 45rem;
+      width: 32rem;
     }
+  }
+
+   @media (max-width: 28em){
+    .harta{
+      
+      height: 45rem;
+      width: 25rem;
+    }
+    .heading-secondary{
+      text-align: center;
+      
+    }
+
+
   }
   
   
