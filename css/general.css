@@ -1,14 +1,14 @@
 /*
 
 --- 02 COLORS
-- Primary: #37b24d #37b24d
+- Primary:  #37b24d#339af0
 - Tints:
-#ebfbee #ebfbee
+ #a5d8ff #a5d8ff
 
-#fae5d3 #d3f9d8
-#eb984e #51cf66
+ #74c0fc #74c0fc
+ #51cf66 #4dabf7
 - Shades: 
-#2b8a3e #2b8a3e
+ #2b8a3e #1c7ed6
 #45260a
 
 
@@ -122,7 +122,7 @@
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
-    color: #2b8a3e;
+    color:  #1c7ed6;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
@@ -151,13 +151,13 @@
   
   .btn--full:link,
   .btn--full:visited {
-    background-color: #37b24d;
+    background-color: #339af0;
     color: #fff;
   }
   
   .btn--full:hover,
   .btn--full:active {
-    background-color: #2b8a3e;
+    background-color:  #1c7ed6;
   }
   
   .btn--outline:link,
@@ -168,7 +168,7 @@
   
   .btn--outline:hover,
   .btn--outline:active {
-    background-color: #ebfbee;
+    background-color: #a5d8ff;
   
     /* border: 3px solid #fff; */
   
@@ -178,7 +178,7 @@
   
   .btn--form {
     background-color: #45260a;
-    color: #ebfbee;
+    color: #a5d8ff;
     align-self: end;
     padding: 1.2rem;
   }
@@ -191,7 +191,7 @@
   .link:link,
   .link:visited {
     display: inline-block;
-    color: #37b24d;
+    color: #339af0;
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
@@ -200,7 +200,7 @@
   
   .link:hover,
   .link:active {
-    color: #2b8a3e;
+    color:  #1c7ed6;
     border-bottom: 1px solid transparent;
   }
   
@@ -222,14 +222,14 @@
   .list-icon {
     width: 3rem;
     height: 3rem;
-    color: #37b24d;
+    color: #339af0;
   }
   
   *:focus {
     outline: none;
-    /* outline: 4px dotted #37b24d; */
+    /* outline: 4px dotted #339af0; */
     /* outline-offset: 8px; */
-    box-shadow: 0 0 0 0.8rem rgba(34, 230, 103, 0.649);
+    box-shadow: 0 0 0 0.8rem rgba(42, 173, 235, 0.649);
   }
   
   /* HELPER/SETTINGS CLASSES */
