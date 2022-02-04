@@ -326,8 +326,12 @@
     }
     .heading-secondary{
       text-align: center;
-      
     }
+
+    .heading-primary{
+      margin-top: -60px;
+    }
+
     .gallery {
       grid-template-columns: repeat(1, 1fr);
     }
