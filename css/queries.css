@@ -327,15 +327,21 @@
     .heading-secondary{
       text-align: center;
     }
+    .hero-img{
+      margin-top: 70px;
+    }
 
     .heading-primary{
       margin-top: -60px;
+      visibility: hidden;
     }
 
     .gallery {
       grid-template-columns: repeat(1, 1fr);
     }
-
+    .emaili{
+      margin-left: -25px;
+    }
 
   }
   
